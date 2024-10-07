@@ -23,6 +23,7 @@ function showServiceDetails(serviceName) {
     alert("You have selected: " + serviceName);
 }
 
+
 // Function to display the current year in the footer
 document.addEventListener("DOMContentLoaded", () => {
     const currentYear = new Date().getFullYear();
