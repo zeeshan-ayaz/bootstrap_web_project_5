@@ -1,0 +1,38 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 80vh;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 50px;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #007bff;
+    padding: 20px 0;
+}
+
+.social-links a {
+    margin: 0 5px;
+    text-decoration: none;
+}
